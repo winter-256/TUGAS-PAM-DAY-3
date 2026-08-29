@@ -6,7 +6,7 @@ jumlah = int(input("Masukkan jumlah porsi: "))
 total_bayar = harga * jumlah 
 
 if total_bayar > 20000: 
-    potongan = total_bayar * 0.1  # Diskon 10%
+    potongan = total_bayar * 0.1 # diskon 10%
     total_bayar = total_bayar - potongan
     print("Selamat! Anda mendapatkan diskon 10%") 
 else: 
